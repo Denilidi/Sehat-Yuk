@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Tips">
+
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="9dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="1. Rutin minum air putih"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="9dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="2. Istirahat yang cukup"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="9dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="3. Perbanyak Sedekah"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/marqueeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Karena dengan Sehat bisa mengalahkan Dunia"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</LinearLayout>
